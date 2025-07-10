@@ -15,11 +15,11 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4 text-blue-300">Kontak</h3>
             <div className="space-y-2">
-              <p>Jl. Raya Bogor KM 47, Nanggewer</p>
-              <p>Cibinong, Bogor</p>
-              <p>Jawa Barat 16912</p>
-              <p className='cursor-pointer'>Email: info@alwafi.ac.id</p>
-              <p className='cursor-pointer'>Telp: (021) 123-4567</p>
+              <p>Jl. Air Dingin Ujung Simpang Tiga disamping Kantor KUA Bukit Raya</p>
+              <p>Kec. Bukit Raya, Kota Pekanbaru</p>
+              <p>Riau 28282</p>
+              <p className='cursor-pointer'>Email: halonamasayasumanto@gmail.com</p>
+              <p className='cursor-pointer'>Telp: +62 852 1544 2596</p>
             </div>
           </div>
 
@@ -28,13 +28,13 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4 text-blue-300">Link Cepat</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/program-studi" className="hover:text-blue-400">Program Studi</Link>
+                <a href="#program-studi" className="hover:text-blue-400">Program Studi</a>
               </li>
               <li>
-                <Link to="/tentang" className="hover:text-blue-400">Tentang Kami</Link>
+                <a href="#tentang" className="hover:text-blue-400">Tentang Kami</a>
               </li>
               <li>
-                <Link to="/daftar" className="hover:text-blue-400">Pendaftaran</Link>
+                <a href="#daftar" className="hover:text-blue-400">Pendaftaran</a>
               </li>
             </ul>
           </div>
